@@ -1,21 +1,20 @@
 package models
 
 import (
-    "log"
-    "github.com/gorilla/sessions" 
+	"github.com/gorilla/sessions"
+	"log"
 )
 
-
 func GetSessionUser(session *sessions.Session) *User {
-    log.Printf("fetching session user")
+	log.Printf("fetching session user")
 
-    userId, ok := session.Values["user"]
-    
-    if ok {
-        var user User
-        return user.Get(userId.(string))
-    }
-    
-    log.Printf("User id not found in session.")
-    return nil
+	userId, ok := session.Values["user"]
+
+	if ok {
+		var user User
+		return user.Get(userId.(string))
+	}
+
+	log.Printf("User id not found in session.")
+	return nil
 }
