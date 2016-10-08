@@ -2,7 +2,7 @@ package main
 
 import (
 	. "github.com/gorilla/mux"
-	"github.com/joelewis/guerilla-seed/controllers"
+	"github.com/joelewis/gorilla-seed/controllers"
 	"net/http"
 )
 

@@ -2,7 +2,7 @@ package models
 
 import (
 	"github.com/jinzhu/gorm"
-	utils "github.com/joelewis/guerilla-seed/utils"
+	utils "github.com/joelewis/gorilla-seed/utils"
 	"log"
 )
 

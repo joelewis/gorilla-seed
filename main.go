@@ -3,8 +3,8 @@ package main
 import (
 	// "fmt"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	models "github.com/joelewis/guerilla-seed/models"
-	utils "github.com/joelewis/guerilla-seed/utils"
+	models "github.com/joelewis/gorilla-seed/models"
+	utils "github.com/joelewis/gorilla-seed/utils"
 	"log"
 	"net/http"
 	"os"

@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"fmt"
-	models "github.com/joelewis/guerilla-seed/models"
-	utils "github.com/joelewis/guerilla-seed/utils"
+	models "github.com/joelewis/gorilla-seed/models"
+	utils "github.com/joelewis/gorilla-seed/utils"
 	"net/http"
 )
 
