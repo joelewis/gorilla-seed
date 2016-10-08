@@ -2,12 +2,12 @@
 
 ## Getting Started
 
-+ Clone the repo `git clone https://github.com/joelewis/guerilla-seed`
++ Clone the repo `git clone https://github.com/joelewis/gorilla-seed`
 + Update config variables in `main.go` (DB_URL, SERVER_PORT, etc.)
 + Rename the directory's name to suit yours. 
-  `mv /path/to/guerilla-seed /path/to/my-app-name`
+  `mv /path/to/gorilla-seed /path/to/my-app-name`
 + update import paths in go files.
-  Eg. `import "path/to/guerilla-seed/models"` 
+  Eg. `import "path/to/gorilla-seed/models"` 
   should be `import "path/to/my-app-name/models"`
 + Compile: `go build`
 + Initialize tables: `./my-app-name inittables`
