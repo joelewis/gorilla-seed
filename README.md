@@ -1,4 +1,4 @@
-# A quick seed for the golang-guerilla stack
+# A quick seed for the golang-gorilla stack
 
 ## Getting Started
 
