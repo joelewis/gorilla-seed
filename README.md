@@ -15,8 +15,8 @@
 
 ## What is inside?
 Nothing much.
-+ A developer friendly ORM - [gorm](https://github.com/jintzhu/gorm)
-+ A `user` model with a basic setup of [guerilla/sessions]() for authentication. There is *no* pages or handlers for user signups or login/logout. It is left for you to implement.
++ A developer friendly ORM - [gorm](https://github.com/jinzhu/gorm)
++ A `user` model with a basic setup of [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) for authentication. There is *no* pages or handlers for user signups or login/logout. It is left for you to implement.
 
 ## Where to start?
 + Define the route in `routes.go`
